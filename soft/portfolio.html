@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Nexus Digital</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="navbar"></div>
+ 
+  <section class="page-header">
+    <div class="page-header-bg">
+      <div class="geo-shape" style="position:absolute; width:500px; height:500px; border-radius:50%; border:1px solid rgba(255,77,97,0.08); top:-200px; right:-100px;"></div>
+      <div class="geo-shape" style="position:absolute; width:300px; height:300px; border-radius:50%; border:1px solid rgba(32,194,181,0.08); bottom:-100px; left:-50px;"></div>
+    </div>
+    <div class="container">
+      <div class="page-header-content">
+        <div class="breadcrumb"><a href="index.html">Home</a><span class="breadcrumb-sep">/</span><span class="breadcrumb-current">Portfolio</span></div>
+        <h1>Our <span style="background: linear-gradient(135deg, var(--coral), var(--teal)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Work</span></h1>
+        <p>Explore our portfolio of successful projects and case studies.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background: var(--navy);">
+    <div class="container">
+      <div class="portfolio-filters">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="mobile">Mobile</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+        <button class="filter-btn" data-filter="cloud">Cloud</button>
+        <button class="filter-btn" data-filter="ecommerce">E-Commerce</button>
+        <button class="filter-btn" data-filter="healthcare">Healthcare</button>
+      </div>
+
+      <div class="portfolio-grid">
+        <div class="portfolio-card" data-category="mobile">
+          <div class="portfolio-image" style="background: linear-gradient(135deg, rgba(255,77,97,0.2), rgba(255,77,97,0.05));">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="rgba(255,77,97,0.4)" stroke-width="1.5"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+          </div>
+          <div class="portfolio-overlay">
+            <div class="portfolio-overlay-content">
+              <h4>FinPay Mobile App</h4>
+              <p>Complete mobile banking solution with biometric authentication and real-time transactions.</p>
+              <div class="portfolio-tags">
+                <span class="portfolio-tag">iOS</span>
+                <span class="portfolio-tag">Android</span>
+                <span class="portfolio-tag">React Native</span>
+              </div>
+              <a href="#" class="btn btn-primary btn-sm">View Case Study</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-card" data-category="web">
+          <div class="portfolio-image" style="background: linear-gradient(135deg, rgba(32,194,181,0.2), rgba(32,194,181,0.05));">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="rgba(32,194,181,0.4)" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <div class="portfolio-overlay">
+            <div class="portfolio-overlay-content">
+              <h4>CloudSync Dashboard</h4>
+              <p>Enterprise cloud management platform with real-time monitoring and analytics.</p>
+              <div class="portfolio-tags">
+                <span class="portfolio-tag">React</span>
+                <span class="portfolio-tag">Node.js</span>
+                <span class="portfolio-tag">AWS</span>
+              </div>
+              <a href="#" class="btn btn-teal btn-sm">View Case Study</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-card" data-category="ecommerce">
+          <div class="portfolio-image" style="background: linear-gradient(135deg, rgba(139,92,246,0.2), rgba(139,92,246,0.05));">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="rgba(139,92,246,0.4)" stroke-width="1.5"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+          </div>
+          <div class="portfolio-overlay">
+            <div class="portfolio-overlay-content">
+              <h4>ShopFlow E-Commerce</h4>
+              <p>High-performance e-commerce platform with AI-powered product recommendations.</p>
+              <div class="portfolio-tags">
+                <span class="portfolio-tag">Next.js</span>
+                <span class="portfolio-tag">Stripe</span>
+                <span class="portfolio-tag">PostgreSQL</span>
+              </div>
+              <a href="#" class="btn btn-primary btn-sm">View Case Study</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-card" data-category="healthcare">
+          <div class="portfolio-image" style="background: linear-gradient(135deg, rgba(255,184,0,0.2), rgba(255,184,0,0.05));">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="rgba(255,184,0,0.4)" stroke-width="1.5"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          </div>
+          <div class="portfolio-overlay">
+            <div class="portfolio-overlay-content">
+              <h4>MediConnect Health</h4>
+              <p>HIPAA-compliant telemedicine platform connecting patients with healthcare providers.</p>
+              <div class="portfolio-tags">
+                <span class="portfolio-tag">Vue.js</span>
+                <span class="portfolio-tag">WebRTC</span>
+                <span class="portfolio-tag">Azure</span>
+              </div>
+              <a href="#" class="btn btn-teal btn-sm">View Case Study</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-card" data-category="cloud">
+          <div class="portfolio-image" style="background: linear-gradient(135deg, rgba(255,77,97,0.2), rgba(32,194,181,0.05));">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="rgba(255,77,97,0.4)" stroke-width="1.5"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
+          </div>
+          <div class="portfolio-overlay">
+            <div class="portfolio-overlay-content">
+              <h4>DataFlow Analytics</h4>
+              <p>Cloud-based data analytics platform with real-time processing and visualization.</p>
+              <div class="portfolio-tags">
+                <span class="portfolio-tag">Python</span>
+                <span class="portfolio-tag">Kubernetes</span>
+                <span class="portfolio-tag">GCP</span>
+              </div>
+              <a href="#" class="btn btn-primary btn-sm">View Case Study</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-card" data-category="mobile">
+          <div class="portfolio-image" style="background: linear-gradient(135deg, rgba(32,194,181,0.2), rgba(139,92,246,0.05));">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="rgba(32,194,181,0.4)" stroke-width="1.5"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+          </div>
+          <div class="portfolio-overlay">
+            <div class="portfolio-overlay-content">
+              <h4>FitTrack Fitness</h4>
+              <p>AI-powered fitness tracking app with personalized workout plans and nutrition guidance.</p>
+              <div class="portfolio-tags">
+                <span class="portfolio-tag">Flutter</span>
+                <span class="portfolio-tag">TensorFlow</span>
+                <span class="portfolio-tag">Firebase</span>
+              </div>
+              <a href="#" class="btn btn-teal btn-sm">View Case Study</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="final-cta">
+    <div class="final-cta-bg">
+      <div class="geo-shape" style="position:absolute; width:500px; height:500px; border-radius:50%; border:1px solid rgba(255,77,97,0.08); top:-200px; right:-100px;"></div>
+      <div class="geo-shape" style="position:absolute; width:300px; height:300px; border-radius:50%; border:1px solid rgba(32,194,181,0.08); bottom:-100px; left:-50px;"></div>
+    </div>
+    <div class="container">
+      <div class="final-cta-content animate-on-scroll">
+        <h2>Ready to Create Your <span style="background: linear-gradient(135deg, var(--coral), var(--teal)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Success Story?</span></h2>
+        <p>Let's work together to build the next successful digital product.</p>
+        <div class="final-cta-buttons">
+          <a href="application.html" class="btn btn-primary btn-lg">Start a Project</a>
+          <a href="contact.html" class="btn btn-secondary btn-lg">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+<div id="footer"></div>
+
+
+  <script src="js/components.js"></script>
+</body>
+</html>
